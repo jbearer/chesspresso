@@ -1,0 +1,18 @@
+[package]
+name = "chesspresso-core"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+
+[dependencies]
+alloy.workspace = true
+ansi_term.workspace = true
+anyhow.workspace = true
+derive_more.workspace = true
+futures.workspace = true
+glicko2.workspace = true
+itertools.workspace = true
+serde.workspace = true
+shakmaty.workspace = true
+sqlx.workspace = true
+tracing.workspace = true
